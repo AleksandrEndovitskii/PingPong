@@ -9,7 +9,7 @@ namespace GameObjects.Field
         {
             base.ReactOnCollisionEnter(ballView);
 
-            // bounce ball in opposite direction
+            ballView.BounceInOppositeDirection();
         }
     }
 }

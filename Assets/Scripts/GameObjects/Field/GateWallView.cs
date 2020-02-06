@@ -9,7 +9,7 @@ namespace GameObjects.Field
         {
             base.ReactOnCollisionEnter(ballView);
 
-            // launch ball again
+            ballView.LaunchBall();
         }
     }
 }
