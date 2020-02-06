@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace GameObjects.Racket
+namespace GameObjects
 {
     public class RacketView : MonoBehaviour
     {

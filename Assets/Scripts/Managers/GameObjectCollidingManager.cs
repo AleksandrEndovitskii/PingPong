@@ -1,4 +1,4 @@
-﻿using GameObjects.Ball;
+﻿using GameObjects;
 using GameObjects.Field;
 using UnityEngine;
 

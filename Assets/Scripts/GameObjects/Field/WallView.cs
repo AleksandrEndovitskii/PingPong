@@ -1,5 +1,4 @@
-﻿using GameObjects.Ball;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace GameObjects.Field
 {

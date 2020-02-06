@@ -1,6 +1,5 @@
-﻿using GameObjects.Ball;
+﻿using GameObjects;
 using GameObjects.Field;
-using GameObjects.Racket;
 using UnityEngine;
 
 namespace Managers

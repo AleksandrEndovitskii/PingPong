@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace GameObjects.Field
+namespace GameObjects
 {
     public class FieldView : MonoBehaviour
     {
