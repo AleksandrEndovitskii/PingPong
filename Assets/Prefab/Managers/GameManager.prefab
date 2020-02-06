@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4240783659767832}
+  - component: {fileID: 6637871600381263941}
   - component: {fileID: 114235794925385538}
-  - component: {fileID: 448955366780803586}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -32,7 +32,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114235794925385538
+--- !u!114 &6637871600381263941
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf47630c8a7da4c4daa86dddfc2cd16f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &448955366780803586
+--- !u!114 &114235794925385538
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -56,3 +56,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7a88b1df58f0ef46815f04715c06415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GameObjectsContainerPrefab: {fileID: 8104455192785144191, guid: edaaaa947e28ce14d9a46c40c6dd1d6b,
+    type: 3}
+  FieldViewPrefab: {fileID: 114062616049703276, guid: 09ec1ce5607aaeb4db5073d926f80c57,
+    type: 3}
+  RacketViewPrefab: {fileID: 114196323164399432, guid: e44b4dd5c45ec224a89d3f6b239f7ff3,
+    type: 3}
+  BallViewPrefab: {fileID: 114078603773449410, guid: 98a1b2527b481844b8afc3e6878e43d7,
+    type: 3}
