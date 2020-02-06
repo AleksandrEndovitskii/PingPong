@@ -11,17 +11,17 @@ namespace Managers
             //
         }
 
-        public void AnalizeCollidedObjects(BallView ballView, WallView wallView)
+        public void AnalyzeCollidedObjects(BallView ballView, WallView wallView)
         {
-            //AnalizeCollidedObjects(BallView ballView, wallView);
+            //AnalyzeCollidedObjects(BallView ballView, wallView);
         }
 
-        public void AnalizeCollidedObjects(BallView ballView, RepellentWallView repellentWallView)
+        public void AnalyzeCollidedObjects(BallView ballView, RepellentWallView repellentWallView)
         {
             ballView.BounceInOppositeDirection();
         }
 
-        public void AnalizeCollidedObjects(BallView ballView, GateWallView gateWallView)
+        public void AnalyzeCollidedObjects(BallView ballView, GateWallView gateWallView)
         {
             //
         }
