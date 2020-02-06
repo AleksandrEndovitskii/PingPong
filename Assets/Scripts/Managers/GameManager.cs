@@ -13,6 +13,11 @@ namespace Managers
             get { return this.gameObject.GetComponent<GameObjectsManager>(); }
         }
 
+        public GameObjectCollidingManager GameObjectCollidingManager
+        {
+            get { return this.gameObject.GetComponent<GameObjectCollidingManager>(); }
+        }
+
         private void Awake()
         {
             if (Instance == null)
@@ -36,6 +41,7 @@ namespace Managers
         private void Initialize()
         {
             GameObjectsManager.Initialize();
+            GameObjectCollidingManager.Initialize();
         }
     }
 }

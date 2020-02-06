@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4240783659767832}
   - component: {fileID: 6637871600381263941}
   - component: {fileID: 114235794925385538}
+  - component: {fileID: 4136870463438906037}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -64,3 +65,15 @@ MonoBehaviour:
     type: 3}
   BallViewPrefab: {fileID: 114078603773449410, guid: 98a1b2527b481844b8afc3e6878e43d7,
     type: 3}
+--- !u!114 &4136870463438906037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013237973650642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15f4f6153534e7cb7bbfde070da00dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
